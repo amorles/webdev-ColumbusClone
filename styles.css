@@ -1,3 +1,4 @@
+/* NAV BAR */
 
 ul{
     list-style-type: none;
@@ -36,13 +37,73 @@ ul li{
     font-size: 9pt;
 
 }
+
+/* HERO SECTION */
+
 #HeroSection{
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     background-image: url(images/graduation.jpg);
     background-repeat: no-repeat;
     background-size: cover
 }
 img{
     vertical-align: middle;
+}
+
+/* EXPLORE CCHS */
+
+#explorecchs{
+    height: 500px;
+    width: 100vw;
+    background-color: #10243B;
+}
+#exploreheader{
+    height:100px;
+    width: 100vw;
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 18px;
+    vertical-align: middle;
+    color: #ffffff;
+}
+#exploresection{
+    height: 400px;
+    width: 100vw;
+}
+.exploreblock{
+    height: 400px;
+    width: 24.5%;
+    display: inline-block
+}
+#explorepatriot{
+    background-image:url(images/patriots\ plaza.jpg);
+    background-size: cover;
+    vertical-align: middle;
+}
+#explorecolleges{
+    background-image:url(images/college.png) ;
+    background-size: cover;
+    vertical-align: middle;
+}
+#exploreccnnboys{
+    background-image:url(images/ccnn.jpg) ;
+    background-size: cover;
+    vertical-align: middle;
+}
+#exploreccnntext{
+    background-image:url(images/ccnn\ live.png) ;
+    background-size: cover;
+    vertical-align: middle;
+}
+/* CCHS AT A GLANCE */
+#CCHSGlance{
+    text-transform: uppercase;
+    color: #00344C;
+    padding: 20px 0px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    vertical-align: middle;
+    text-align: center;
 }
