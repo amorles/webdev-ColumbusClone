@@ -106,4 +106,45 @@ img{
     font-size: 3em;
     vertical-align: middle;
     text-align: center;
+    margin-bottom: 0px;
+}
+.glanceblock{
+    height: 400px;
+    width: 24.5%;
+    display: inline-block;
+}
+.glanceheader{
+    color: #ca0d33;
+    font-family:'PT Sans Narrow', sans-serif;
+    font-size: 1.875em;
+    font-weight: bold;
+    text-align: center;
+}
+.glancelower{
+    color: #333333;
+    font-family:'Open Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+.caroselimg{
+    transform: translate(50%);
+}
+
+/* COURSES OFFERED */
+#coursesofferedtext{
+    vertical-align: middle;
+    text-align: center;
+    background-color: #10243B;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+#coursesofferedtext{
+    vertical-align: middle;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+    font-size: 2.25em;
 }
