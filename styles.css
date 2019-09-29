@@ -131,6 +131,7 @@ img{
 }
 
 /* COURSES OFFERED */
+
 #coursesofferedtext{
     vertical-align: middle;
     text-align: center;
@@ -147,4 +148,56 @@ img{
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: bold;
     font-size: 2.25em;
+    box-sizing: content-box;
+    width: 80%;
+    margin:auto;
+}
+
+/* GRADUATES */
+#graduatediv{
+    height:5px;
+    width:100vw;
+    color: black;
+}
+#graduateheader{
+    text-align: center;
+    font-size: 12px;
+    text-transform: none;
+    color: #00344C;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+#graduatesection{
+    height: 400px;
+    width: 100vw;
+}
+.graduateblock{
+    height: 400px;
+    width: 19.5%;
+    display: inline-block;
+}
+#fsu{
+    background-image:url(images/mit.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+#georgetown{
+    background-image:url(images/northcarolina.png) ;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+#gt{
+    background-image:url(images/um.png) ;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+#gw{
+    background-image:url(images/wakeforest.png) ;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+#harvard{
+        background-image:url(images/yale.png) ;
+        background-repeat: no-repeat;
+        background-size: auto;
 }
