@@ -41,7 +41,7 @@ ul li{
 /* HERO SECTION */
 
 #HeroSection{
-    width: 100vw;
+    width: 100%;
     height: 90vh;
     background-image: url(images/graduation.jpg);
     background-repeat: no-repeat;
@@ -55,12 +55,12 @@ img{
 
 #explorecchs{
     height: 500px;
-    width: 100vw;
+    width: 100%;
     background-color: #10243B;
 }
 #exploreheader{
     height:100px;
-    width: 100vw;
+    width: 100%;
     text-align: center;
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 18px;
@@ -69,7 +69,7 @@ img{
 }
 #exploresection{
     height: 400px;
-    width: 100vw;
+    width: 100%;
 }
 .exploreblock{
     height: 400px;
@@ -154,9 +154,10 @@ img{
 }
 
 /* GRADUATES */
+
 #graduatediv{
     height:5px;
-    width:100vw;
+    width:100%;
     color: black;
 }
 #graduateheader{
@@ -169,7 +170,7 @@ img{
 }
 #graduatesection{
     height: 400px;
-    width: 100vw;
+    width: 100%;
 }
 .graduateblock{
     height: 400px;
@@ -201,13 +202,80 @@ img{
         background-repeat: no-repeat;
         background-size: auto;
 }
+
+/* FOOTER */
+
 #footernav{
     padding: 12.5px 25px 12.5px 0;
-    color: inherit;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1rem;
     font-family: 'PT Sans Narrow', sans-serif;
     color: #0088cc;
     background-color: #10243B;
+}
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #0088cc;
+    background-color: #10243B;
+    padding: 12.5px 25px 12.5px 0;
+}
+#leftfoot{
+    display: inline-block;
+}
+#rightfoot{
+    display: inline-block;
+    margin-left: 19%;
+}
+#realfooter{
+    background-color: #333333;
+    width: 100%;
+    height: 400px;
+}
+#cchsaddress{
+    height: 200px;
+    width: 100%;
+    display: inline-block;
+
+}
+.addressbox{
+    height: 100px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: .05em;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#sitemap{
+    margin-left: 44%;
+}
+#cchsfinalfooter{
+    height: 100px;
+    width: 100%;
+    display: inline-block;
+
+}
+.finalfooterbox{
+    height: 100px;
+    width: 50%;
+    display: inline-block;
+    font-style: italic;
+    margin-bottom: 50px;
+    opacity: .5;
+    font-size: 11px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    word-wrap: break-word;
+    font-weight: lighter;
+    text-decoration: none
+}
+
+#finalfooterimage{
+    margin-left: 30%;
+    vertical-align: top
 }
