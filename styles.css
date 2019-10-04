@@ -229,6 +229,7 @@ a {
 #rightfoot{
     display: inline-block;
     margin-left: 19%;
+    
 }
 #realfooter{
     background-color: #333333;
@@ -236,12 +237,13 @@ a {
     height: 400px;
 }
 #cchsaddress{
-    height: 200px;
+    height: 100px;
     width: 100%;
     display: inline-block;
 
 }
 .addressbox{
+    margin-left: 10px;
     height: 100px;
     display: inline-block;
     text-transform: uppercase;
@@ -261,6 +263,7 @@ a {
 
 }
 .finalfooterbox{
+    margin-left: 10px;
     height: 100px;
     width: 50%;
     display: inline-block;
